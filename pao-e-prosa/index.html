@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pão & Prosa – Padaria de Bairro</title>
+  <meta name="description" content="Padaria Pão & Prosa: pães quentinhos, bolos recheados, cafés especiais e sucos naturais. Faça seu pedido e fale com o Seu Joaquim." />
+  <meta name="theme-color" content="#8B4513" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container nav" aria-label="Barra de navegação principal">
+      <a class="brand" href="#home" aria-label="Ir para o início">
+        <img class="logo" src="assets/img/logo.svg" alt="Logotipo Pão & Prosa"/>
+        <h1>Pão & Prosa</h1>
+      </a>
+      <nav>
+        <a href="#produtos">Produtos</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#sobre">Sobre nós</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home" class="hero" role="banner" aria-label="Seção principal com chamada">
+    <div class="hero-inner container">
+      <h2>Pães quentinhos e frescos todos os dias!</h2>
+      <p>Também temos <strong>bolos recheados</strong>, <strong>sucos naturais</strong>, <strong>cafés</strong> e <strong>sanduíches</strong> feitos na hora.</p>
+      <a class="cta" href="#contato" aria-label="Fazer encomenda">Fazer encomenda</a>
+    </div>
+  </main>
+
+  <!-- PRODUTOS / DESTAQUES -->
+  <section id="produtos" aria-labelledby="produtos-title">
+    <div class="container">
+      <h3 id="produtos-title">Destaques do dia</h3>
+      <p class="sub">Escolha seus favoritos e fale com a gente para reservar.</p>
+      <div class="grid cols-4">
+        <!-- Bolo Recheado de Chocolate -->
+        <article class="card" aria-label="Bolo recheado de chocolate">
+          <img src="https://images.unsplash.com/photo-1551024709-8f23befc6cf7?q=80&w=1200&auto=format&fit=crop" alt="Bolo de chocolate recheado e decorado"/>
+          <div class="body">
+            <h4>Bolo Recheado de Chocolate</h4>
+            <p>Massa fofinha com ganache cremosa. Porções generosas para festas.</p>
+            <p class="price">a partir de R$ 59,90</p>
+          </div>
+        </article>
+
+        <!-- Sucos Naturais -->
+        <article class="card" aria-label="Sucos naturais">
+          <img src="https://images.unsplash.com/photo-1542444459-db63c9f4bfae?q=80&w=1200&auto=format&fit=crop" alt="Copos de sucos naturais coloridos"/>
+          <div class="body">
+            <h4>Sucos Naturais</h4>
+            <p>Laranja, acerola, abacaxi e combinações da estação, sem conservantes.</p>
+            <p class="price">R$ 8,00</p>
+          </div>
+        </article>
+
+        <!-- Pães Artesanais -->
+        <article class="card" aria-label="Pães artesanais">
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1200&auto=format&fit=crop" alt="Pães artesanais dourados"/>
+          <div class="body">
+            <h4>Pães Artesanais</h4>
+            <p>Francês, integral, sovado e fermentação natural – assados ao amanhecer.</p>
+            <p class="price">a partir de R$ 1,20 (unid.)</p>
+          </div>
+        </article>
+
+        <!-- Doces da Casa -->
+        <article class="card" aria-label="Doces da Casa">
+          <img src="https://images.unsplash.com/photo-1541976076758-347942db197f?q=80&w=1200&auto=format&fit=crop" alt="Doces e roscas caseiras"/>
+          <div class="body">
+            <h4>Doces da Casa</h4>
+            <p>Sonho, rosca, cookies e fatias de bolo para acompanhar o café.</p>
+            <p class="price">a partir de R$ 4,50</p>
+          </div>
+        </article>
+
+        <!-- Assados & Salgados -->
+        <article class="card" aria-label="Assados e Salgados">
+          <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=1200&auto=format&fit=crop" alt="Quiche e salgados assados"/>
+          <div class="body">
+            <h4>Assados &amp; Salgados</h4>
+            <p>Quiches, empadas e folhados – perfeitos para o lanche.</p>
+            <p class="price">a partir de R$ 7,90</p>
+          </div>
+        </article>
+
+        <!-- (Opcional) Outros itens permanecem -->
+        <article class="card" aria-label="Sanduíche artesanal">
+          <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=1200&auto=format&fit=crop" alt="Sanduíche artesanal com queijo e salada"/>
+          <div class="body">
+            <h4>Sanduíches Artesanais</h4>
+            <p>Pão da casa com recheios frescos. Opções frias e quentes.</p>
+            <p class="price">a partir de R$ 14,90</p>
+          </div>
+        </article>
+
+        <article class="card" aria-label="Café espresso">
+          <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?q=80&w=1200&auto=format&fit=crop" alt="Xícara de café espresso com crema"/>
+          <div class="body">
+            <h4>Cafés Especiais</h4>
+            <p>Espresso, cappuccino e latte com grãos selecionados.</p>
+            <p class="price">a partir de R$ 6,00</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARDÁPIO -->
+  <section id="cardapio" aria-labelledby="cardapio-title">
+    <div class="container">
+      <h3 id="cardapio-title">Cardápio</h3>
+      <p class="sub">Preços sugeridos — atualize conforme a sua vitrine.</p>
+
+      <div class="menu">
+        <div class="menu-group">
+          <h4>Bolos Recheados</h4>
+          <ul>
+            <li><span>Bolo de Chocolate (1kg)</span><strong>R$ 59,90</strong></li>
+            <li><span>Bolo de Morango (1kg)</span><strong>R$ 69,90</strong></li>
+            <li><span>Bolo Ninho com Nutella (1kg)</span><strong>R$ 72,90</strong></li>
+          </ul>
+        </div>
+        <div class="menu-group">
+          <h4>Pães Artesanais</h4>
+          <ul>
+            <li><span>Pão Francês (unid.)</span><strong>R$ 1,20</strong></li>
+            <li><span>Pão Integral (500g)</span><strong>R$ 10,90</strong></li>
+            <li><span>Sourdough – Fermentação Natural (600g)</span><strong>R$ 18,90</strong></li>
+          </ul>
+        </div>
+        <div class="menu-group">
+          <h4>Sucos & Cafés</h4>
+          <ul>
+            <li><span>Suco de Laranja (300ml)</span><strong>R$ 8,00</strong></li>
+            <li><span>Acerola/Abacaxi (300ml)</span><strong>R$ 8,00</strong></li>
+            <li><span>Espresso</span><strong>R$ 6,00</strong></li>
+            <li><span>Cappuccino</span><strong>R$ 9,00</strong></li>
+          </ul>
+        </div>
+        <div class="menu-group">
+          <h4>Sanduíches</h4>
+          <ul>
+            <li><span>Misto Quente</span><strong>R$ 14,90</strong></li>
+            <li><span>Frango com Cream Cheese</span><strong>R$ 16,90</strong></li>
+            <li><span>Vegetariano (queijo, tomate, pesto)</span><strong>R$ 15,90</strong></li>
+          </ul>
+        </div>
+        <div class="menu-group">
+          <h4>Assados & Salgados</h4>
+          <ul>
+            <li><span>Empada (frango/palmito)</span><strong>R$ 7,90</strong></li>
+            <li><span>Quiche (fatia)</span><strong>R$ 9,90</strong></li>
+            <li><span>Folhado de Presunto e Queijo</span><strong>R$ 8,90</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SOBRE NÓS -->
+  <section id="sobre" aria-labelledby="sobre-title">
+    <div class="container about">
+      <div>
+        <h3 id="sobre-title">A história do Seu Joaquim</h3>
+        <p class="sub">Tradição que perfuma o bairro desde 1998.</p>
+        <p>O Seu Joaquim aprendeu o ofício com o pai, ainda criança. Depois de anos servindo a vizinhança com pão quentinho ao amanhecer, decidiu trazer a <strong>Pão & Prosa</strong> para o mundo digital. Aqui você encontra receitas de família, ingredientes selecionados e aquele atendimento acolhedor que já conhece.</p>
+        <p>Nosso compromisso é assar com carinho e entregar sabor. Faça sua encomenda para festas, café da manhã e eventos.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1200&auto=format&fit=crop" alt="Padeiro retirando pães do forno"/>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" aria-labelledby="contato-title">
+    <div class="container contact">
+      <form id="contact-form" novalidate aria-describedby="form-message">
+        <h3 id="contato-title">Fale com a gente</h3>
+        <p class="sub">Tire dúvidas, faça encomendas e sugestões.</p>
+
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text" placeholder="Seu nome" required minlength="2" />
+
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="seuemail@exemplo.com" required />
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required minlength="10"></textarea>
+
+        <div class="form-actions">
+          <button type="submit" aria-label="Enviar mensagem">Enviar</button>
+          <a class="cta" href="https://wa.me/5575991357869?text=Olá,%20quero%20fazer%20uma%20encomenda!" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">WhatsApp</a>
+        </div>
+        <p id="form-message" class="msg" role="status" aria-live="polite"></p>
+      </form>
+
+      <aside aria-label="Informações de contato e horário">
+        <h3>Estamos por aqui</h3>
+        <p><strong>Endereço:</strong> Avenida Cesar Cabral, 16</p>
+        <p><strong>Horário:</strong> Seg–Sáb 06:00–19:30 • Dom 06:30–12:30</p>
+        <p><strong>Telefone:</strong> (75) 99135‑7869</p>
+        <div class="social">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="Google Maps">Maps</a>
+        </div>
+        
+        <div class="map-wrap" aria-label="Mapa - Como chegar">
+          <iframe
+            title="Mapa - Avenida Cesar Cabral, 16"
+            src="https://www.google.com/maps?q=Avenida%20Cesar%20Cabral%2C%2016%2C%20Ipir%C3%A1%20-%20BA&output=embed"
+            width="100%" height="220" style="border:0; border-radius:12px;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+      </aside>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h4 style="margin:0 0 8px">Pão & Prosa</h4>
+        <p>Padaria artesanal de bairro. Pães, bolos, sucos e sanduíches preparados com carinho.</p>
+      </div>
+      <div>
+        <h4 style="margin:0 0 8px">Links</h4>
+        <p><a href="#produtos">Produtos</a></p>
+        <p><a href="#sobre">Sobre</a></p>
+        <p><a href="#contato">Contato</a></p>
+      </div>
+      <div>
+        <h4 style="margin:0 0 8px">Redes</h4>
+        <div class="social">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button id="toTop" aria-label="Voltar ao topo" title="Voltar ao topo">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
